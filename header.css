@@ -868,13 +868,222 @@
 /* medium */
 @media only screen and (min-width:481px) and (max-width:768px){
   .background{
-    width:769px;
-  }
-  .nav{
-    background-color: rgb(87, 228, 17);
+    height: 416px;
   }
   .nav__link{
     display: none;
+  }
+  .burbujas-rigth{
+    display: none;
+  }
+  .nav__elipse{
+    margin-left: 248px;
+    width: 364px;
+    height: 344px;
+    margin-top: 43px;
+  }
+  .nav__img{
+    width: 199px;
+    height: 50px;
+    margin-left: 22px;
+    margin-top: 32px;
+  }
+  .button-container{
+    width: 160px;
+    height: 44px;
+    margin-top: 32px;
+    margin-left: 345px;
+
+  }
+  .body{
+    float: left;
+  }
+  .body__img--ice{
+    margin-left: 322px;
+    width: 151px;
+    height: 346px;
+    margin-left: 322px;
+    margin-top: -12px;
+  }
+  .body__img--girl{
+    display: none;
+  }
+  .group-2{
+    display: none;
+  }
+  .group-3{
+    display: none;
+  }
+  .body__tittle{
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .body__h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.19px;
+  }
+  .body__span{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30.77px;
+  }
+  .buttons{
+    margin-top: 20px;
+  }
+  .buttons__button{
+    width: 61.2px;
+    height: 24px;
+  }
+  .buttons_span{
+    font-size: 8px;
+    line-height: 10.42px;
+    display: flex;
+    justify-content: center;
+  }
+  .buttons__button-whithe{
+    width: 82.8px;
+    height: 24px;
+  }
+  .body__glass{
+    width: 152px;
+    height: 154px;
+    margin-top: 150px;
+    margin-left: 32px;
+  }
+  .body__par{
+    display: none;
+  }
+  .body__svg{
+    display: none;
+  }
+  .burbujas-rigth{
+    display: none;
+  }
+  .burbujas__burbuja {
+    bottom: 0;
+    position: absolute;
+    -webkit-animation: bubbles 6s normal infinite;
+            animation: bubbles 6s normal infinite;
+    border-radius: 50px;
+  }
+  .burbujas__burbuja:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    left: 1%;
+    -webkit-animation-duration: 8.5s;
+            animation-duration: 8.5;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    -webkit-animation-duration: 7.5s;
+            animation-duration: 7.5s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    left: 30%;
+    -webkit-animation-duration: 8.7s;
+            animation-duration: 8.7s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(4) {
+    width: 10px;
+    height: 10px;
+    left: 35%;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(5) {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(6) {
+    width: 20px;
+    height: 20px;
+    left: 45%;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(7) {
+    width: 20px;
+    height: 20px;
+    left: 55%;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(8) {
+    width: 10px;
+    height: 10px;
+    left: 60%;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(9) {
+    width: 5px;
+    height: 5px;
+    left: 80%;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+    background-color: #FFFFFF;
+  }
+  .burbujas__burbuja:nth-child(10) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(11) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(12) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(13) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(14) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(15) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(16) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(17) {
+    display: none;
+  }
+  .burbujas__burbuja:nth-child(18) {
+    display: none;
+  }
+  @keyframes bubbles {
+    0% {
+      transform: translateX(0%);
+    }
+    5% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(px);
+    }
+    75% {
+      transform: translateX(0px);
+    }
+    100% {
+      bottom: 100vh;
+      transform: translateX(0px);
+    }
+  }
   }
 }
 /* laptop */
