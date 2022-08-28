@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/header.css" />
 
-    <link
-      rel="stylesheet"
-      media="only screen (min-width: 320px)and (max-width: 1280px)"
-      href="#"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      media="only screen (min-width: 320px)and (max-width: 480px)"
+      media="only screen (min-width: 320px)and (max-width: 1280px)"
       href="#"
     />
     <link
@@ -61,7 +56,7 @@
           <a class="nav__link" href="">How it&apos;s made?</a>
           <a class="nav__link" href="">Our products</a>
           <a class="nav__link" href="">Contact</a>
-          <a href="#" class="open" id="open">
+          <a href="#id01">
             <button class="button-container">
               <span class="button-container__span">Buy Now</span>
               <svg
@@ -178,24 +173,14 @@
         </div>
       </div>
       <!-- modal -->
-      <div class="over-lay" id="over-lay">
-        <div class="popup" id="popup">
+      <div id="id01" class="modal">
+        <div class="popup">
           <div class="popup__intcontent">
             <div class="popup__intcontent--tittle" id="btncerrarpopup">
-              <a href="#" id="close" class="close">
-                <svg
-                  class="popup__intcontent--tittlesvg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M1.25928 1L14.7408 15" stroke="white" />
-                  <path d="M1 14.7407L15 1.25924" stroke="white" />
-                </svg>
+              <a href="#" id="close" class="popup__close">
+                <span>&#88;</span>
               </a>
-              <h2>Syper pyper Ice Cream</h2>
+              <h2 class="popup__h2">Syper pyper Ice Cream</h2>
             </div>
             <div class="popup__intcontent--imgs">
               <img
